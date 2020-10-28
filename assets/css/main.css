@@ -104,7 +104,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #4a4c4d;
-		font-family: 'Lato', sans-serif;
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.03em;
@@ -126,13 +127,18 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 500;
 	}
 
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 	}
-
+	
+	#name {
+		text-transform:none;
+		font-weight:500;
+	}
+	
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
